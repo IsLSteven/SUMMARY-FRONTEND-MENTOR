@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Font;
+    src: url(./results-summary-component-main/results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Font;
+    background-color: #fefefe
+}
+
+.parte-azul {
+    display: flex;
+    flex-flow: column;
+    border-radius: 1em;
+    width: 318px;
+    height: 420px;
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)
+    );
+    z-index: 1;
+}
+
+.circulo {
+    padding: 0.6;
+    background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)) transparent;
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    margin: 15px auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color:#c7bfff;
+    margin: auto;
+}
+
+.numero {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin: 0 auto;
+}
+
+.baixo {
+    margin: 0 ;
+    color: hsl(243, 100%, 79%);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+
+}
+
+.text {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: hsl(243, 100%, 79%);
+}
+
+.parte-branca {
+    display: flex;
+    flex-flow: column;
+    border-radius: 1em;
+    width: 318px;
+    height: 420px;
+    background-color: white;
+    border: 0 solid;
+    padding: 2px;
+    padding-left:2em;
+    z-index: 0;
+    box-shadow: 0px 0px 8px 0px rgb(236, 240, 252); 
+    margin: -1.4em;
+}
+
+.summary {
+    margin: 30px 0px 25px 30px;
+}
+
+.quadrinho {
+    margin: 0 auto 15px     ;
+    width: 85%;
+    display: flex;
+    background:hsl(6, 100%, 98%) ;
+    border-radius: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quadrinho .nomes{
+margin-right: auto;
+}
+
+.quadrinho .pontuacao{
+    margin-right: 20px;
+    }
+
+.pontuacao {
+    margin:0px 20px 0px 5px;
+    color:hsl(224, 30%, 27%);
+    font-weight: 700;
+    }
+
+.frente {
+    font-weight: 700;
+    color: rgb(31, 39, 51)
+}
+
+.icone {
+    margin: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 2em;
+    width: 85%;
+    margin: auto;
+    background-color: rgb(48, 59, 89);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)
+    );
+}
+
+.reaction {
+    background-color: rgb(255, 246, 245);
+    color:hsl(0, 100%, 67%) ;
+    
+}
+
+.memory {
+    background-color: rgb(255, 251, 242);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: rgb(242, 250, 250) ;
+    color:hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: rgb(243, 243, 253);
+    color: hsl(234, 85%, 45%);
+}
