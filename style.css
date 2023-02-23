@@ -125,13 +125,14 @@ margin-right: auto;
 
 .pontuacao {
     margin:0px 20px 0px 5px;
-    color:hsl(224, 30%, 27%);
+    color: rgba(128, 128, 128, 0.5);
     font-weight: 700;
     }
 
 .frente {
-    font-weight: 700;
-    color: rgb(31, 39, 51)
+
+    color: rgb(31, 39, 51);
+    font-weight: bolder;
 }
 
 .icone {
@@ -177,18 +178,3 @@ button:hover {
     background-color: rgb(243, 243, 253);
     color: hsl(234, 85%, 45%);
 }
-
-
-/* @media (max-width:720px) {
-    
-    .tudo {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .parte-azul{
-        width: 100vw;
-        border-radius: 4em;
-
-    }
-} */
