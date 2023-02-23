@@ -1,0 +1,31 @@
+@media (max-width:415px) {
+
+    .tudo {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .parte-azul {
+        width: 100%;
+        border-radius: 2em;
+        padding-top: 50px;
+        margin-top: -40px;
+        justify-content: center;
+
+    }
+
+    .summary {
+        font-size: 15px;
+        margin: 10px 20px 10px;
+    }
+
+
+    .parte-branca {
+        padding: 50px 0 0 0;
+        margin-top: -40px;
+        width: 100%;
+        justify-content: center;
+    }
+}

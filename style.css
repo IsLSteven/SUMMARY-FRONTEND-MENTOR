@@ -8,7 +8,7 @@
     margin: 0%;
 }
 
-body {
+main {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -177,3 +177,18 @@ button:hover {
     background-color: rgb(243, 243, 253);
     color: hsl(234, 85%, 45%);
 }
+
+
+/* @media (max-width:720px) {
+    
+    .tudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parte-azul{
+        width: 100vw;
+        border-radius: 4em;
+
+    }
+} */
